@@ -1,0 +1,23 @@
+├── package.json
+├── src/
+│   ├── main.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   ├── components/
+│   │   ├── MotherboardTopDownVisual.tsx   (Placa base física cenital e interactiva)
+│   │   ├── PcBuilderSimulator.tsx         (Motor de ensamblaje, drag & drop y validaciones)
+│   │   ├── HardwarePieceVisual.tsx        (Renderizado vectorial SVG de cada componente)
+│   │   ├── ComponentCatalog.tsx           (Catálogo interactivo con fichas técnicas)
+│   │   ├── AssemblyGuide.tsx              (Guía paso a paso ilustrada)
+│   │   ├── KnowledgeQuiz.tsx              (Evaluación interactiva de conocimientos)
+│   │   ├── WelcomeScreen.tsx              (Pantalla de bienvenida y objetivos)
+│   │   ├── MainMenu.tsx                   (Menú principal con seguimiento de progreso)
+│   │   ├── FinalScreen.tsx                (Pantalla de felicitaciones y estadísticas)
+│   │   ├── Navbar.tsx                     (Barra de navegación y control de audio)
+│   │   └── CoquetteDecorations.tsx        (Iconos, lazos y elementos estéticos)
+│   ├── data/
+│   │   ├── componentsData.ts              (Base de datos técnica de los componentes)
+│   │   ├── assemblySteps.ts               (Pasos pedagógicos de montaje)
+│   │   └── quizQuestions.ts               (Banco de preguntas de la evaluación)
+│   └── utils/
+│       └── audio.ts                       (Sintetizador Web Audio API: clics, chimes y POST)
